@@ -13,13 +13,14 @@ cabecera = hojaEstilo["Heading2"]
 cabecera.fontSize=18
 cabecera.alignment=2
 
+blanc = ['', '', '']
 tit = ['Nombre de tu empresa', '', 'Logo de la Empresa']
 inf1 = ['Dirección', '', '']
 inf2 = ['Ciudad y País', '', '']
 inf3 = ['CIF/NIF', 'Fecha Emisión', 'DD/MM/AAA']
 inf4 = ['Teléfono', 'Número de Factura', 'A0001']
 inf5 = ['Mail', '', '']
-tabla = Table ([tit, inf1, inf2, inf3, inf4, inf5])
+tabla = Table ([blanc, tit, inf1, inf2, inf3, inf4, inf5])
 
 
 titulo=Paragraph("FACTURA SIMPLIFICADA", cabecera)
