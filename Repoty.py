@@ -19,7 +19,7 @@ cabecera.backColor = colors.lightblue
 cabecera2 = hojaEstilo["Heading4"]
 cabecera2.fontName='Helvetica-Oblique'
 cabecera2.fontSize=18
-cabecera2.alignment=1
+cabecera2.alignment=2
 cabecera2.bordercolor=blueviolet
 
 titulo=Paragraph("Titulo del documento", cabecera2)
