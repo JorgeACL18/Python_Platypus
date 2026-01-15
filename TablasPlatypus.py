@@ -16,7 +16,7 @@ actN = ['Noche', '-', 'Trabajar', 'Trabajar', 'Trabajar', '-', '-', '-']
 tabla = Table ([titulo, cab, actM, actT, actN])
 tabla.setStyle([('TEXTCOLOR', (1,-4), (7,-4), colors.red),
                 ('TEXTCOLOR', (0,0), (0,3), colors.blue),
-                ('BACKGROUND', (1,-4), (-1,-4), colors.cyan),
+                ('BACKGROUND', (0,1), (7,1), colors.cyan),
                 ('INNERGRID', (0,1), (-1,-1), 0.25, colors.lightgrey),
                 ('LINEABOVE', (1, 1), (-1, 1), 1.5, colors.red),
                 ('LINEAFTER', (0,1), (0,-1), 0.25, colors.lightgrey),
