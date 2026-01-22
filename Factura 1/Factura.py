@@ -1,6 +1,5 @@
 import os
 
-from reportlab.lib.colors import blueviolet
 from reportlab.platypus import Paragraph, Image, Spacer, SimpleDocTemplate, Table
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.pagesizes import A4
