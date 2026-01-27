@@ -11,7 +11,7 @@ from reportlab.lib.pagesizes import A4
 
 d = Drawing(400, 200)
 
-datos = [(13.3,8,14.3,25,33.3,37.5,21.1,28.6,45.5,38.1,54.6,36.0,42.3), (67,69,68,81,92,90,87,82,77,79,59,69,61)]
+datos = [(100,8,14.3,25,33.3,37.5,21.1,28.6,45.5,38.1,54.6,36.0,42.3), (67,69,68,81,92,90,87,82,77,79,59,69,61)]
 lendaDatos = ['11/12', '12/13', '13/14', '14/15', '15/16', '16/17', '17/18', '18/19', '19/20', '20/21', '21/22', '22/23', '23/24']
 
 
@@ -43,7 +43,7 @@ graficoBarras = VerticalBarChart()
 
 graficoBarras.x = 50
 graficoBarras.y = 50
-graficoBarras.height = 125
+graficoBarras.height = 150
 graficoBarras.width = 300
 graficoBarras.data = datos
 graficoBarras.valueAxis.valueMin = 0
@@ -176,4 +176,4 @@ d3.add(leyenda)
 #---------------------------------------
 
 doc = SimpleDocTemplate("ExemploGrafico.pdf",pagesize=A4)
-doc.build([d, Spacer(20,20), d2, Spacer(20,20), d3])
+doc.build([d, Spacer(20,20 ), d2, Spacer(20,20), d3])

@@ -56,11 +56,10 @@ Tabla 3
 """
 m1 = ['Método de pago:', '']
 b = ['','']
-tab3 = Table([m1, b])
+tab3 = Table([m1, b], colWidths=[150, 150], hAlign='LEFT')
 tab3.setStyle([
     ('BOX', (0, 0), (1, 1), 0.5, colors.black),
     ('FONTSIZE', (0, 0), (0, 0), 8),
-    ('RIGHTPADDING', (0, 0), (0, 1), 50),
     ('BOTTOMPADDING', (0, 0), (1, 1), 10),
 ])
 
@@ -81,10 +80,11 @@ tab4.setStyle([
     ('RIGHTPADDING', (1, 3), (1, 3), 20),
 ])
 
-tablaa = Table([[tab3, tab4], b])
+tablaa = Table([[tab3, tab4], b], hAlign='LEFT', colWidths=[150, 150])
 tablaa.setStyle([
     ('BOTTOMPADDING', (0,0), (-1,-1), 2),
     ('VALIGN', (0,0), (0,0), 'TOP'),
+    ('ALIGN', (0,0) , (0,1), 'LEFT')
 ])
 
 guion.append(titulo)
